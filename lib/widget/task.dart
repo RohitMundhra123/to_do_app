@@ -66,8 +66,11 @@ class _TaskState extends State<Task> {
               IconButton(
                   visualDensity: const VisualDensity(vertical: -4),
                   onPressed: () {},
-                  icon: const Icon(Icons.delete,
-                      size: 22, color: Color(0xFFDFBD43)))
+                  icon: const Icon(
+                    Icons.delete,
+                    size: 22,
+                    color: Color(0xFFDFBD43),
+                  ))
             ],
           )
         ],

@@ -1,5 +1,5 @@
 import "package:flutter/material.dart";
-import "package:to_do_app/screen/firstpage.dart";
+import "package:to_do_app/screen/mainpage.dart";
 
 void main() {
   runApp(const ToDoApp());
@@ -23,7 +23,7 @@ class _ToDoAppState extends State<ToDoApp> {
               backgroundColor: Colors.black,
               titleTextStyle: TextStyle(color: Colors.white)),
           scaffoldBackgroundColor: Colors.black),
-      home: const FirstPage(),
+      home: const MainPage(),
     );
   }
 }
